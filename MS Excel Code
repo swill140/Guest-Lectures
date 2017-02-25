@@ -1,0 +1,64 @@
+MS Excel Code:  
+
+Group 1:  
+
+ALL  
+
+=var.s(b2:b31)
+=var.s(c2:c31)  
+
+Aethiops
+=var.s(b2:b19)
+=var.s(c2:c19)  
+
+Mulatta
+=var.s(b20:b31)
+=var.s(c20:c31)  
+
+Group 2:  
+
+=var.s(b2:50)
+=var.s(b2:b20)
+=var.s(b2:b30)
+=var.s(b2:b40)  
+
+Group 3:  
+
+All  
+
+=var.s(c2:c32)
+=var.s(d2:d32)
+=var.s(e2:e32)  
+
+MALE  
+
+=var.s(c25:c32)
+=var.s(d25:d32)
+=var.s(e25:e32)  
+
+FEMALE  
+
+=var.s(c2:c24)
+=var.s(d2:d24)
+=var.s(e2:e24)  
+
+Group 4:  
+
+LN  
+
+=ln(b2) …
+=ln(c2) …
+=ln(d2) …  
+
+CORR: NB + SON_ZMS  
+
+=correl(g2:g23,i2:i23)  
+
+CORR: NB + FLEX  
+
+=correl(g2:g23,k2:k23)  
+
+CORR: SON_ZMS + FLEX  
+
+=correl(i2:i23,k2:k23)  
+
